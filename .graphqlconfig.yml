@@ -1,0 +1,18 @@
+projects:
+  LinecloneLambda:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - src/graphql/**/*.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: src/graphql
+        region: ap-southeast-1
+        apiId: gocrdrueczf2dbfjkin3xu2ade
+        maxDepth: 2
+extensions:
+  amplify:
+    version: 3
